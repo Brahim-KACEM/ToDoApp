@@ -30,7 +30,7 @@ Supports user registration, login, task management, filtering, and due dates —
 ## 🧪 Screenshots
 
 
-- ![Login](./screenshots/logintodoapp.png)
+- ![Login](./prototyping/screenshots/logintodoapp.png)
 - ![Task List](./screenshots/todoapp.png)
 
 ---
