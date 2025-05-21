@@ -1,3 +1,4 @@
+
 # ✅ ToDoApp
 
 A full-stack ToDo application built with **Spring Boot**, **React**, and **H2 Database**.  
@@ -36,26 +37,24 @@ Supports user registration, login, task management, filtering, and due dates —
 
 ## 📦 Project Structure
 
+```
 todo-app/
 ├── backend/
-│ └── src/main/java/com/example/todo/
-│ ├── model/ → User, Todo entities
-│ ├── repository/ → JPA Repositories
-│ ├── controller/ → REST Controllers (Auth + Todo)
-│ └── TodoApp.java → Main Spring Boot app
+│   └── src/main/java/com/example/todo/
+│       ├── model/          → User, Todo entities
+│       ├── repository/     → JPA Repositories
+│       ├── controller/     → REST Controllers (Auth + Todo)
+│       └── TodoApp.java    → Main Spring Boot app
 ├── frontend/
-│ ├── src/
-│ │ ├── App.jsx
-│ │ ├── components/
-│ │ │ ├── Login.jsx
-│ │ │ ├── Signup.jsx
-│ │ │ └── TodoList.jsx
-│ │ └── style.css
-│ └── index.html
-
-yaml
-Copier
-Modifier
+│   ├── src/
+│   │   ├── App.jsx
+│   │   ├── components/
+│   │   │   ├── Login.jsx
+│   │   │   ├── Signup.jsx
+│   │   │   └── TodoList.jsx
+│   │   └── style.css
+│   └── index.html
+```
 
 ---
 
@@ -67,31 +66,43 @@ Modifier
 cd backend
 mvn clean install
 mvn spring-boot:run
-🧪 Access H2 console: http://localhost:8080/h2-console
-(JDBC URL: jdbc:h2:mem:todo-db)
+```
 
-▶️ Frontend (React + Vite)
-bash
-Copier
-Modifier
+🧪 Access H2 console: [http://localhost:8080/h2-console](http://localhost:8080/h2-console)  
+(JDBC URL: `jdbc:h2:mem:todo-db`)
+
+---
+
+### ▶️ Frontend (React + Vite)
+
+```bash
 cd frontend
 npm install
 npm run dev
-📍 Visit: http://localhost:5173
+```
 
-🔐 Sample Test Users
-Email	Password
-test@user.com	1234
-admin@todo.com	admin
+📍 Visit: [http://localhost:5173](http://localhost:5173)
 
-🧹 TODOs / Improvements
-🔐 Replace plain text passwords with hashed (BCrypt)
+---
 
-☁️ Deploy on Vercel + Render (or Spring Boot on Fly.io)
+## 🔐 Sample Test Users
 
-📱 Add mobile-first responsive enhancements
+| Email              | Password |
+|-------------------|----------|
+| `test@user.com`   | `1234`   |
+| `admin@todo.com`  | `admin`  |
 
-📨 Add email notifications before due dates (optional)
+---
 
-📝 License
+## 🧹 TODOs / Improvements
+
+- 🔐 Replace plain text passwords with hashed (BCrypt)
+- ☁️ Deploy on Vercel + Render (or Spring Boot on Fly.io)
+- 📱 Add mobile-first responsive enhancements
+- 📨 Add email notifications before due dates (optional)
+
+---
+
+## 📝 License
+
 MIT License © 2025 Brahim Kacem
