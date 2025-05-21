@@ -29,7 +29,7 @@ Supports user registration, login, task management, filtering, and due dates —
 
 ## 🧪 Screenshots
 
-> _You can include images like these once hosted:_
+
 - ![Login](./screenshots/login.png)
 - ![Task List](./screenshots/todos.png)
 
