@@ -31,7 +31,7 @@ Supports user registration, login, task management, filtering, and due dates —
 
 
 - ![Login](./prototyping/screenshots/logintodoapp.png)
-- ![Task List](./screenshots/todoapp.png)
+- ![Task List](./prototyping/screenshots/todoapp.png)
 
 ---
 
